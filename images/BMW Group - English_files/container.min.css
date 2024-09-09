@@ -1,0 +1,3 @@
+.cmp-container.root>*,.cmp-container>*:first-child,.cmp-container__anchor+*{margin-top:0}
+.cmp-container{position:relative}
+.cmp-container .cmp-container__anchor{visibility:hidden;position:absolute;height:0;margin:-100px}

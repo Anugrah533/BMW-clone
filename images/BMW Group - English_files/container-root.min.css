@@ -1,0 +1,8 @@
+.grp-container-root__section-layer{display:none;position:absolute;top:0;width:100%;height:100%;background-color:#f2f2f2;transition:opacity .75s;opacity:0}
+.grp-container-root__section-layer.show{display:block}
+.grp-container-root__section-layer::after{content:" ";position:absolute;top:20px;right:20px;width:24px;height:24px;background-color:#494949;mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;cursor:pointer}
+.grp-container-root__section-layer::after:hover{background-color:#000}
+.grp-container-root__section-item{transition:transform .75s;cursor:pointer}
+.grp-container-root__section-overview{font-family:"BMWGroupTNCondensedProTT-Regular",Tahoma,Geneva,sans-serif}
+.grp-container-root__section-item{padding-top:40px;position:relative}
+.grp-container-root__section-item::before{content:" ";display:block;position:absolute;left:0;top:20px;height:1px;background-color:#666;width:50px}

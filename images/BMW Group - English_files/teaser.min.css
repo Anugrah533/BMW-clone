@@ -1,0 +1,178 @@
+.grp-area-company.cmp-teaser__image{border-color:#035970}
+.grp-area-sustainability.cmp-teaser__image{border-color:#fad022}
+.grp-area-innovation.cmp-teaser__image{border-color:#0083c6}
+.grp-area-brand.cmp-teaser__image{border-color:#69103b}
+.grp-area-career.cmp-teaser__image{border-color:#508130}
+.grp-area-investor.cmp-teaser__image{border-color:#e96d0c}
+.grp-area-electromobility.cmp-teaser__image{border-color:#8d1e77}
+.grp-area-unknown.cmp-teaser__image{border-color:#494949}
+@keyframes fadeIn{0{display:none;opacity:0}
+1%{display:block;opacity:0}
+100%{display:block;opacity:1}
+}
+.fadeIn{animation-name:fadeIn;animation-duration:.5s}
+@keyframes fadeOut{0{display:block;opacity:1}
+99%{display:block;opacity:0}
+100%{display:none;opacity:0}
+}
+.fadeOut{animation-name:fadeOut;animation-duration:.5s}
+@keyframes slideInDown{from{transform:translate3d(0,-100%,0);visibility:visible}
+100%{transform:translate3d(0,0,0)}
+}
+.slideInDown{animation-name:slideInDown;animation-duration:.75s}
+@keyframes slideOutUp{from{transform:translate3d(0,0,0)}
+100%{visibility:hidden;transform:translate3d(0,-100%,0)}
+}
+.slideOutUp{animation-name:slideOutUp;animation-duration:.75s}
+@keyframes slideInRight{from{transform:translate3d(100%,0,0);visibility:visible}
+100%{transform:translate3d(0,0,0)}
+}
+.slideInRight{animation-name:slideInRight}
+@keyframes slideOutRight{from{transform:translate3d(0,0,0);width:100%}
+100%{visibility:hidden;transform:translate3d(100%,0,0)}
+}
+@keyframes slideOutRight{from{transform:translate3d(0,0,0)}
+100%{visibility:hidden;transform:translate3d(100%,0,0)}
+}
+.slideOutRight{animation-name:slideOutRight}
+@keyframes slideInLeft{from{transform:translate3d(-100%,0,0);visibility:visible}
+100%{transform:translate3d(0,0,0)}
+}
+.slideInLeft{animation-name:slideInLeft}
+@keyframes slideOutLeft{from{transform:translate3d(0,0,0)}
+100%{visibility:hidden;transform:translate3d(-100%,0,0)}
+}
+.slideOutLeft{animation-name:slideOutLeft}
+@keyframes fadeInFromNone{0{display:none;opacity:0}
+1%{display:block;opacity:0}
+100%{display:block;opacity:1}
+}
+@keyframes slideUpDelayed{0{transform:translateY(0)}
+80%{transform:translateY(0)}
+100%{transform:translateY(-100%)}
+}
+.teaser{margin-top:40px}
+.cmp-teaser{position:relative;margin:0}
+.cmp-teaser.cmp-image__force100{height:100%;overflow:hidden}
+.cmp-teaser__image{border-bottom:5px solid;padding:0;margin:0;overflow:hidden}
+.cmp-teaser__image.no-border{border-bottom:0}
+.cmp-teaser__image .cmp-image{margin:0}
+.cmp-teaser__link .cmp-teaser__image .cmp-image__image,.teaser.style-tool-dark-image .cmp-image__image,.teaser.style-tool-light-image .cmp-image__image{transition:transform .75s ease-out}
+.cmp-teaser__link .cmp-teaser__image .cmp-image__image:hover,.teaser.style-tool-dark-image .cmp-image__image:hover,.teaser.style-tool-light-image .cmp-image__image:hover{transform:scale(1.03)}
+.grp-column-control .cmp-teaser__image,.grp-column-control .cmp-teaser__image .cmp-image{height:100%}
+.grp-column-control .cmp-teaser__image .cmp-image .cmp-image__image{height:100%;object-fit:cover}
+.cmp-teaser__action-container{margin-top:30px}
+.cmp-teaser__content .cmp-teaser__action-link{background-color:#d6d6d6;border-radius:3px;padding:0 49px 0 30px;text-transform:uppercase;text-decoration:none;text-align:left;border:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;max-width:22.5rem;min-width:20rem;min-height:3.5rem;overflow:visible;color:#494949;font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;font-size:17px;font-weight:normal;margin:0 0 15px 0}
+@media(max-width:1024px){.cmp-teaser__content .cmp-teaser__action-link{max-width:18rem;font-size:14px}
+}
+@media(max-width:480px){.cmp-teaser__content .cmp-teaser__action-link{min-width:unset}
+}
+.cmp-teaser__content .cmp-teaser__action-link::after{content:" ";mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-right_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:right center;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-right_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:right center;width:42px;height:100%;position:absolute;top:0;right:13px;display:block;background-color:#494949}
+.cmp-teaser__content .cmp-teaser__action-link:hover::after{background-color:#000}
+.cmp-teaser__backside .cmp-teaser__action-link{font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;color:#494949;position:relative;padding-left:24px;line-height:20px;display:inline-block;padding-top:0}
+.cmp-teaser__backside .cmp-teaser__action-link:hover{color:#000}
+.cmp-teaser__backside .cmp-teaser__action-link::after{content:"";mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-right_rg.svg");mask-repeat:no-repeat;mask-size:20px;mask-position:right center;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-right_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:20px;-webkit-mask-position:left center;width:20px;height:20px;position:absolute;top:0;left:0;display:block;background-color:#494949}
+.cmp-teaser__backside .cmp-teaser__action-link:hover::after{background-color:#000}
+.teaser.style-below-default .cmp-teaser__link,.teaser.style-below-transparent .cmp-teaser__link{display:flex;flex-direction:column}
+.teaser.style-below-default .cmp-teaser__pretitle,.teaser.style-below-default .cmp-teaser__description,.teaser.style-below-transparent .cmp-teaser__pretitle,.teaser.style-below-transparent .cmp-teaser__description{display:none}
+.teaser.style-below-default .cmp-teaser__content,.teaser.style-below-transparent .cmp-teaser__content{padding:15px}
+.teaser.style-below-default .cmp-teaser__title,.teaser.style-below-transparent .cmp-teaser__title{font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;font-size:16px;font-weight:normal;line-height:1.1;text-transform:uppercase}
+.teaser.style-below-default .cmp-teaser__image,.teaser.style-below-transparent .cmp-teaser__image{border-bottom:0}
+.container-layout .teaser.style-below-default .cmp-teaser{background-color:#f2f2f2}
+.container-layout.background-grey .teaser.style-below-default .cmp-teaser{background-color:#FFF}
+.teaser.style-hover-dark-image .cmp-teaser__image,.teaser.style-hover-light-image .cmp-teaser__image{border-bottom:0}
+.teaser.style-on-dark-image .cmp-teaser__content,.teaser.style-on-light-image .cmp-teaser__content,.teaser.style-tool-dark-image .cmp-teaser__content,.teaser.style-tool-light-image .cmp-teaser__content,.teaser.style-hover-dark-image .cmp-teaser__content,.teaser.style-hover-light-image .cmp-teaser__content{position:absolute;top:0;left:0;padding:32px;color:#494949;z-index:10;width:100%}
+@media(max-width:1024px){.teaser.style-on-dark-image .cmp-teaser__content,.teaser.style-on-light-image .cmp-teaser__content,.teaser.style-tool-dark-image .cmp-teaser__content,.teaser.style-tool-light-image .cmp-teaser__content,.teaser.style-hover-dark-image .cmp-teaser__content,.teaser.style-hover-light-image .cmp-teaser__content{padding:24px}
+}
+.teaser.style-on-dark-image .cmp-teaser__content .cmp-teaser__pretitle,.teaser.style-on-light-image .cmp-teaser__content .cmp-teaser__pretitle,.teaser.style-tool-dark-image .cmp-teaser__content .cmp-teaser__pretitle,.teaser.style-tool-light-image .cmp-teaser__content .cmp-teaser__pretitle,.teaser.style-hover-dark-image .cmp-teaser__content .cmp-teaser__pretitle,.teaser.style-hover-light-image .cmp-teaser__content .cmp-teaser__pretitle{font-size:15px;margin-bottom:10px}
+@media(max-width:480px){.teaser.style-on-dark-image .cmp-teaser__content h1.cmp-teaser__title,.teaser.style-on-light-image .cmp-teaser__content h1.cmp-teaser__title,.teaser.style-tool-dark-image .cmp-teaser__content h1.cmp-teaser__title,.teaser.style-tool-light-image .cmp-teaser__content h1.cmp-teaser__title,.teaser.style-hover-dark-image .cmp-teaser__content h1.cmp-teaser__title,.teaser.style-hover-light-image .cmp-teaser__content h1.cmp-teaser__title{font-size:24px}
+.teaser.style-on-dark-image .cmp-teaser__content h2.cmp-teaser__title,.teaser.style-on-light-image .cmp-teaser__content h2.cmp-teaser__title,.teaser.style-tool-dark-image .cmp-teaser__content h2.cmp-teaser__title,.teaser.style-tool-light-image .cmp-teaser__content h2.cmp-teaser__title,.teaser.style-hover-dark-image .cmp-teaser__content h2.cmp-teaser__title,.teaser.style-hover-light-image .cmp-teaser__content h2.cmp-teaser__title{font-size:20px}
+}
+.teaser.style-tool-dark-image .cmp-teaser__content.tooldate,.teaser.style-tool-light-image .cmp-teaser__content.tooldate{padding-top:40px;background:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/misc/tooldate_rip.png") top center no-repeat;background-size:contain}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info,.teaser.style-tool-light-image .cmp-teaser__tool-info{position:absolute;left:0;bottom:32px;font-family:"BMWGroupTNCondensedProTT-Regular",Tahoma,Geneva,sans-serif;display:flex;justify-items:center;align-items:center;max-width:calc(100% - 60px);margin-left:32px}
+@media(max-width:1024px){.teaser.style-tool-dark-image .cmp-teaser__tool-info,.teaser.style-tool-light-image .cmp-teaser__tool-info{margin-left:24px}
+}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info .cmp-teaser__tool-day,.teaser.style-tool-light-image .cmp-teaser__tool-info .cmp-teaser__tool-day{margin-right:6px;padding-right:4px;border-right:2px solid;height:2.875rem;font-size:2.875rem;line-height:1}
+@media(min-width:481px) and (max-width:604px){.teaser.style-tool-dark-image .cmp-teaser__tool-info .cmp-teaser__tool-day,.teaser.style-tool-light-image .cmp-teaser__tool-info .cmp-teaser__tool-day{height:2rem;font-size:2rem}
+}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info .cmp-teaser__tool-month,.teaser.style-tool-light-image .cmp-teaser__tool-info .cmp-teaser__tool-month{display:block}
+@media(min-width:481px) and (max-width:604px){.teaser.style-tool-dark-image .cmp-teaser__tool-info .cmp-teaser__tool-month,.teaser.style-tool-light-image .cmp-teaser__tool-info .cmp-teaser__tool-month{display:none}
+}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info .cmp-teaser__tool-month-short,.teaser.style-tool-light-image .cmp-teaser__tool-info .cmp-teaser__tool-month-short{display:none}
+@media(min-width:481px) and (max-width:604px){.teaser.style-tool-dark-image .cmp-teaser__tool-info .cmp-teaser__tool-month-short,.teaser.style-tool-light-image .cmp-teaser__tool-info .cmp-teaser__tool-month-short{display:block}
+}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download{display:flex;align-items:center;gap:10px;height:50px}
+@media(min-width:481px) and (max-width:604px){.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download{height:32px}
+}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon{mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document_rg.svg");mask-repeat:no-repeat;mask-size:50px;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:50px;width:50px;height:50px;display:block;background-color:#494949}
+@media(min-width:481px) and (max-width:604px){.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon{mask-size:32px;-webkit-mask-size:32px;width:32px;height:32px}
+}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-audio,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-audio{mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-audio_rg.svg");-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-audio_rg.svg")}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-chart,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-chart{mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-chart_rg.svg");-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-chart_rg.svg")}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-image,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-image{mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-image_rg.svg");-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-image_rg.svg")}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-pdf,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-pdf{mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-pdf_rg.svg");-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-pdf_rg.svg")}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-presentation,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-presentation{mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-presentation_rg.svg");-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-presentation_rg.svg")}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-text,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-text{mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-text_rg.svg");-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-text_rg.svg")}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-video,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-video{mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-video_rg.svg");-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-video_rg.svg")}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-zip,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon.img-zip{mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-zip_rg.svg");-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/document-zip_rg.svg")}
+.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-fileinfo,.teaser.style-tool-light-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-fileinfo{text-transform:uppercase}
+.teaser.style-tool-dark-image .grp-expand-button,.teaser.style-tool-light-image .grp-expand-button{position:absolute;right:0;bottom:32px}
+@media(min-width:481px) and (max-width:604px){.teaser.style-tool-dark-image .grp-expand-button,.teaser.style-tool-light-image .grp-expand-button{width:50px;height:32px}
+.teaser.style-tool-dark-image .grp-expand-button::after,.teaser.style-tool-light-image .grp-expand-button::after{mask-size:18px;-webkit-mask-size:18px}
+}
+.teaser.style-tool-dark-image .cmp-teaser__backside,.teaser.style-tool-light-image .cmp-teaser__backside{display:none;animation:fadeOut .75s ease-in-out;position:absolute;top:0;left:0;width:100%;height:100%;background-color:#f2f2f2;z-index:20;padding:40px 32px 32px 32px}
+@media(max-width:1024px){.teaser.style-tool-dark-image .cmp-teaser__backside,.teaser.style-tool-light-image .cmp-teaser__backside{padding:40px 24px 24px 24px}
+}
+.container-layout.background-grey .teaser.style-tool-dark-image .cmp-teaser__backside,.container-layout.background-grey .teaser.style-tool-light-image .cmp-teaser__backside{background-color:#FFF}
+.teaser.style-tool-dark-image .cmp-teaser__backside .cmp-teaser__backside-close,.teaser.style-tool-light-image .cmp-teaser__backside .cmp-teaser__backside-close{position:absolute;top:10px;right:10px;width:24px;height:24px}
+.teaser.style-tool-dark-image .cmp-teaser__backside .cmp-teaser__backside-close::after,.teaser.style-tool-light-image .cmp-teaser__backside .cmp-teaser__backside-close::after{content:"";position:absolute;top:0;left:0;mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:100%;height:100%;background-color:#494949}
+.teaser.style-tool-dark-image .cmp-teaser__backside .cmp-teaser__backside-close:hover::after,.teaser.style-tool-light-image .cmp-teaser__backside .cmp-teaser__backside-close:hover::after{background-color:#000}
+.teaser.style-tool-dark-image .cmp-teaser__backside .cmp-teaser__description,.teaser.style-tool-light-image .cmp-teaser__backside .cmp-teaser__description{margin-top:0}
+.teaser.style-tool-dark-image .cmp-teaser__backside.show,.teaser.style-tool-light-image .cmp-teaser__backside.show{display:block;animation:fadeIn .75s ease-in-out}
+.teaser.style-alignment-middle .cmp-teaser__content{top:50%;transform:translateY(-50%)}
+.teaser.style-alignment-bottom .cmp-teaser__content{top:unset;bottom:0}
+.grp-popup__content .teaser.style-on-dark-image .cmp-teaser__content,.grp-popup__content .teaser.style-on-light-image .cmp-teaser__content,.grp-popup__content .teaser.style-tool-dark-image .cmp-teaser__content,.grp-popup__content .teaser.style-tool-light-image .cmp-teaser__content,.grp-popup__content .teaser.style-hover-dark-image .cmp-teaser__content,.grp-popup__content .teaser.style-hover-light-image .cmp-teaser__content{padding:24px;width:100%}
+.grp-popup__content .teaser.style-on-dark-image .cmp-teaser__title,.grp-popup__content .teaser.style-on-light-image .cmp-teaser__title,.grp-popup__content .teaser.style-tool-dark-image .cmp-teaser__title,.grp-popup__content .teaser.style-tool-light-image .cmp-teaser__title,.grp-popup__content .teaser.style-hover-dark-image .cmp-teaser__title,.grp-popup__content .teaser.style-hover-light-image .cmp-teaser__title{font-size:24px}
+@media(min-width:605px) and (max-width:768px){.grp-popup__content .teaser.style-on-dark-image .cmp-teaser__title,.grp-popup__content .teaser.style-on-light-image .cmp-teaser__title,.grp-popup__content .teaser.style-tool-dark-image .cmp-teaser__title,.grp-popup__content .teaser.style-tool-light-image .cmp-teaser__title,.grp-popup__content .teaser.style-hover-dark-image .cmp-teaser__title,.grp-popup__content .teaser.style-hover-light-image .cmp-teaser__title{font-size:20px}
+}
+.teaser.style-on-dark-image .cmp-teaser__description,.teaser.style-on-light-image .cmp-teaser__description,.teaser.style-tool-dark-image .cmp-teaser__description,.teaser.style-tool-light-image .cmp-teaser__description{margin-top:25px;max-width:50rem}
+.teaser.style-on-dark-image .cmp-teaser__description *,.teaser.style-on-light-image .cmp-teaser__description *,.teaser.style-tool-dark-image .cmp-teaser__description *,.teaser.style-tool-light-image .cmp-teaser__description *{line-height:1.2}
+.teaser.style-with-gradient .cmp-image::before{content:"";display:block;position:absolute;height:60%;width:100%;z-index:4;top:0}
+.teaser.style-on-dark-image.style-with-gradient .cmp-image::before,.teaser.style-tool-dark-image.style-with-gradient .cmp-image::before{background-image:linear-gradient(to top,rgba(68,68,68,0) 0,#222 100%)}
+.teaser.style-on-light-image.style-with-gradient .cmp-image::before,.teaser.style-tool-light-image.style-with-gradient .cmp-image::before{background-image:linear-gradient(to top,rgba(255,255,255,0) 0,#DDD 100%)}
+.teaser.style-alignment-middle.style-with-gradient .cmp-image::before{top:50%;transform:translateY(-50%)}
+.teaser.style-alignment-middle.style-on-dark-image.style-with-gradient .cmp-image::before,.teaser.style-alignment-middle.style-tool-dark-image.style-with-gradient .cmp-image::before{background-image:linear-gradient(to bottom,rgba(68,68,68,0) 0,rgba(68,68,68,0.8) 50%,rgba(68,68,68,0) 100%)}
+.teaser.style-alignment-middle.style-on-light-image.style-with-gradient .cmp-image::before,.teaser.style-alignment-middle.style-tool-light-image.style-with-gradient .cmp-image::before{background-image:linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 100%)}
+.teaser.style-alignment-bottom.style-with-gradient .cmp-image::before{top:unset;bottom:0}
+.teaser.style-alignment-bottom.style-on-dark-image.style-with-gradient .cmp-image::before,.teaser.style-alignment-bottom.style-tool-dark-image.style-with-gradient .cmp-image::before{background-image:linear-gradient(to bottom,rgba(68,68,68,0) 0,#222 100%)}
+.teaser.style-alignment-bottom.style-on-light-image.style-with-gradient .cmp-image::before,.teaser.style-alignment-bottom.style-tool-light-image.style-with-gradient .cmp-image::before{background-image:linear-gradient(to bottom,rgba(255,255,255,0) 0,#DDD 100%)}
+.teaser.style-on-dark-image .cmp-teaser__content,.teaser.style-on-dark-image .cmp-teaser__content .cmp-teaser__title a,.teaser.style-on-dark-image .cmp-teaser__tool-info,.teaser.style-tool-dark-image .cmp-teaser__content,.teaser.style-tool-dark-image .cmp-teaser__content .cmp-teaser__title a,.teaser.style-tool-dark-image .cmp-teaser__tool-info,.teaser.style-hover-dark-image .cmp-teaser__content,.teaser.style-hover-dark-image .cmp-teaser__content .cmp-teaser__title a,.teaser.style-hover-dark-image .cmp-teaser__tool-info{color:#FFF}
+.teaser.style-on-dark-image .cmp-teaser__content a.cmp-teaser__tool-download,.teaser.style-on-dark-image .cmp-teaser__content .cmp-teaser__title a a.cmp-teaser__tool-download,.teaser.style-on-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download,.teaser.style-tool-dark-image .cmp-teaser__content a.cmp-teaser__tool-download,.teaser.style-tool-dark-image .cmp-teaser__content .cmp-teaser__title a a.cmp-teaser__tool-download,.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download,.teaser.style-hover-dark-image .cmp-teaser__content a.cmp-teaser__tool-download,.teaser.style-hover-dark-image .cmp-teaser__content .cmp-teaser__title a a.cmp-teaser__tool-download,.teaser.style-hover-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download{color:#FFF}
+.teaser.style-on-dark-image .cmp-teaser__content a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-on-dark-image .cmp-teaser__content .cmp-teaser__title a a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-on-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-tool-dark-image .cmp-teaser__content a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-tool-dark-image .cmp-teaser__content .cmp-teaser__title a a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-tool-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-hover-dark-image .cmp-teaser__content a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-hover-dark-image .cmp-teaser__content .cmp-teaser__title a a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon,.teaser.style-hover-dark-image .cmp-teaser__tool-info a.cmp-teaser__tool-download .cmp-teaser__tool-download-icon{background-color:#FFF}
+.teaser.style-on-dark-image ul li::before,.teaser.style-tool-dark-image ul li::before,.teaser.style-hover-dark-image ul li::before{background-color:#FFF}
+.teaser.style-hover-dark-image .cmp-teaser__description,.teaser.style-hover-light-image .cmp-teaser__description{font-size:15px;margin-top:25px;max-width:50rem}
+@media(max-width:1024px){.teaser.style-hover-dark-image .cmp-teaser__description p,.teaser.style-hover-dark-image .cmp-teaser__description ul,.teaser.style-hover-dark-image .cmp-teaser__description ol,.teaser.style-hover-light-image .cmp-teaser__description p,.teaser.style-hover-light-image .cmp-teaser__description ul,.teaser.style-hover-light-image .cmp-teaser__description ol{margin-top:0;margin-bottom:0;line-height:1.2}
+}
+.teaser.style-hover-dark-image .cmp-teaser__image::after,.teaser.style-hover-light-image .cmp-teaser__image::after{content:"";position:absolute;top:0;width:100%;height:100%;opacity:.3;transition:opacity .5s}
+.teaser.style-hover-dark-image .cmp-teaser:hover .cmp-teaser__image::after,.teaser.style-hover-light-image .cmp-teaser:hover .cmp-teaser__image::after{opacity:50%}
+@media(max-width:768px){.teaser.style-hover-dark-image .cmp-teaser__image::after,.teaser.style-hover-light-image .cmp-teaser__image::after{opacity:50%}
+}
+@media(min-width:769px){.teaser.style-hover-dark-image .cmp-teaser__description,.teaser.style-hover-light-image .cmp-teaser__description{opacity:0;transition:opacity .5s}
+.teaser.style-hover-dark-image .cmp-teaser:hover .cmp-teaser__description,.teaser.style-hover-light-image .cmp-teaser:hover .cmp-teaser__description{opacity:1}
+}
+.teaser.style-hover-dark-image .cmp-teaser__image::after{background-color:#000}
+.teaser.style-hover-light-image .cmp-teaser__image::after{background-color:#FFF}
+.teaser.style-service-module .cmp-teaser{display:flex;flex-direction:column;margin:0 auto 0;max-width:max(85%,800px);background-color:#f2f2f2}
+@media(min-width:881px){.teaser.style-service-module .cmp-teaser{flex-direction:row}
+}
+.teaser.style-service-module .cmp-teaser .cmp-teaser__image{flex:0 0 50%}
+.teaser.style-service-module .cmp-teaser .cmp-teaser__content{flex:0 1 50%;margin:40px 2rem}
+.teaser.style-service-module .cmp-teaser .cmp-teaser__description{margin-top:25px}
+.container-layout.background-grey .teaser.style-service-module .cmp-teaser{background-color:#FFF}
+.cmp-container.root>.teaser .cmp-teaser__content,.cmp-container.root>.carousel .cmp-carousel__item .teaser .cmp-teaser__content,.cmp-container.root>.loop .grp-loop__item .teaser .cmp-teaser__content{padding-left:96px;padding-top:70px;padding-bottom:70px}
+@media(max-width:768px){.cmp-container.root>.teaser .cmp-teaser__content,.cmp-container.root>.carousel .cmp-carousel__item .teaser .cmp-teaser__content,.cmp-container.root>.loop .grp-loop__item .teaser .cmp-teaser__content{padding-left:24px;padding-top:50px;padding-bottom:50px}
+}
+@media(min-width:769px) and (max-width:1280px){.cmp-container.root>.teaser .cmp-teaser__content,.cmp-container.root>.carousel .cmp-carousel__item .teaser .cmp-teaser__content,.cmp-container.root>.loop .grp-loop__item .teaser .cmp-teaser__content{padding-left:48px}
+}
+@media(min-width:769px) and (max-width:1024px){.container-layout.extended-width>.cmp-container>.teaser .cmp-teaser__content,.container-layout.extended-width>.cmp-container>.carousel .cmp-carousel__item .teaser .cmp-teaser__content{padding-left:48px}
+}

@@ -1,0 +1,4 @@
+.title{margin-top:40px}
+.container-layout>.cmp-container>.title.cmp-title-h2-section:first-child{margin-top:-40px}
+.cmp-title-h2-section h2.cmp-title__text{background-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/anchor-navigation_rg.svg");background-repeat:no-repeat;background-position-x:-3px;background-position-y:15px;background-size:24px;cursor:pointer;padding-top:40px}
+.title.style-color-light .cmp-title__text{color:#FFF}

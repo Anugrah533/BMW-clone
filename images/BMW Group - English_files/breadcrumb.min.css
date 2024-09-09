@@ -1,0 +1,9 @@
+.cmp-breadcrumb{display:inline-block;list-style:none;padding:0}
+.cmp-breadcrumb__item{display:inline-block;vertical-align:top}
+.cmp-breadcrumb__list{margin:12px 0 0 0;padding:0}
+.cmp-breadcrumb__item{font-family:"BMWGroupTNCondensedProTT-Regular",Tahoma,Geneva,sans-serif;font-size:.9375rem;padding:4px 10px 4px 0;margin:0}
+.cmp-breadcrumb__item--active{color:#000}
+.cmp-breadcrumb__item:not(:first-of-type){padding-left:20px;position:relative}
+.cmp-breadcrumb__item:not(:first-of-type)::before{content:"";mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-right_rg.svg");mask-repeat:no-repeat;mask-size:20px;mask-position:right center;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-right_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:20px;-webkit-mask-position:right center;width:20px;height:20px;position:absolute;top:4px;left:-8px;display:block;background-color:#494949}
+.cmp-breadcrumb__item:not(.cmp-breadcrumb__item--active):hover::before{background-color:#000}
+.cmp-breadcrumb__item--active{font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif}

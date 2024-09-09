@@ -1,0 +1,101 @@
+.newsarticle.image{margin-top:0}
+.newsarticle img{width:100%}
+.grp-newsarticle__content{padding:0 96px}
+@media(min-width:769px) and (max-width:1280px){.grp-newsarticle__content{padding:0 48px}
+}
+@media(max-width:768px){.grp-newsarticle__content{padding:0 24px}
+}
+.grp-newscontainer{padding-bottom:70px;max-width:955px;margin:auto}
+.grp-newscontainer p{line-height:1.8}
+@media(max-width:480px){.grp-newscontainer{padding-bottom:50px}
+}
+.grp-newsnavi{margin:20px 0;display:flex;justify-content:space-between;align-items:center}
+.grp-backlink{position:relative;color:#494949;font-weight:bold;font-size:16px;padding-left:25px;margin-right:16px}
+.grp-backlink::before{content:"";position:absolute;top:0;left:0;mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-left_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-left_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:24px;height:100%;background-color:#494949}
+.grp-backlink:hover::before{background-color:#000}
+.grp-newsarticle-overline{color:#666;font-family:"BMWGroupTNProTT-Regular",Arial,Helvetica,sans-serif;font-size:15px;display:flex;flex-wrap:wrap}
+.grp-newsarticle-overline>*{margin-bottom:10px}
+.grp-newsarticle-delimiter{margin-left:6px;white-space:nowrap}
+.grp-newsarticle-delimiter::before{content:" | ";margin-right:6px}
+.grp-newsarticle-uppercase{text-transform:uppercase}
+.grp-newsarticle-reading-time{position:relative;margin-left:2px;padding-left:20px}
+.grp-newsarticle-reading-time::before{content:"";position:absolute;left:0;top:1px;mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/clock_rg.svg");mask-repeat:no-repeat;mask-size:18px;mask-position:center center;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/clock_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:18px;-webkit-mask-position:center center;width:18px;height:18px;background-color:#666}
+.grp-newscontainer .grp-h1{margin-top:20px}
+.grp-newscontainer .textmodule p,.grp-newscontainer .textmodule ol li,.grp-newscontainer .textmodule ul li{line-height:1.8 !important}
+.grp-newsarticle-topiclist{margin-top:25px;display:flex;flex-wrap:wrap}
+.grp-newsarticle-topiclist>a:not(:last-child){margin-right:24px}
+@media(max-width:768px){.grp-newsarticle-topiclist>a:not(:last-child){margin-right:16px}
+}
+.grp-newsarticle-topiclist>a{margin-bottom:15px}
+.grp-newsarticle-topicbutton{font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;text-transform:uppercase;text-align:left;padding:10px 42px 9px 20px;cursor:pointer;background-color:#FFF;color:#666;border:1px solid #666;outline:0;position:relative}
+.grp-newsfilter-area .grp-reset{flex-basis:100%;text-align:left}
+.grp-newsarticle-topicbutton:hover,.grp-newsarticle-topicbutton.selected{border-width:2px;padding:9px 41px 8px 19px;color:#494949}
+.grp-newsarticle-topicbutton.selected::after{content:"";position:absolute;top:0;right:5px;mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/checkmark_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/checkmark_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:24px;height:100%;background-color:#494949}
+.grp-newsfilter-result-area,.grp-news-result-area{display:flex;flex-direction:row;flex-wrap:wrap}
+.grp-newsfilter-result-area>div,.grp-news-result-area>div{margin-bottom:40px}
+@media(min-width:769px){.newsarticle .grp-newsteaser,.newsfilter .grp-newsteaser{max-width:calc((100% - 2 * 24px) / 3)}
+.newsarticle .grp-newsteaser:nth-child(3n+1),.newsarticle .grp-newsteaser:nth-child(3n+2){margin-right:24px}
+.newsfilter .grp-newsteaser:nth-child(1),.newsfilter .grp-newsteaser:nth-child(7n+5){max-width:100%;margin-right:0}
+.newsfilter .grp-newsteaser:nth-child(2),.newsfilter .grp-newsteaser:nth-child(3),.newsfilter .grp-newsteaser:nth-child(7n+6),.newsfilter .grp-newsteaser:nth-child(7n+7),.newsfilter .grp-newsteaser:nth-child(7n+9),.newsfilter .grp-newsteaser:nth-child(7n+10){margin-right:24px}
+.newsfilter .grp-newsteaser:nth-child(1) a,.newsfilter .grp-newsteaser:nth-child(7n+5) a{max-width:100%;display:flex;flex-direction:row}
+.newsfilter .grp-newsteaser:nth-child(1) a>:not(:last-child),.newsfilter .grp-newsteaser:nth-child(14n+12) a>:not(:last-child){margin-right:24px}
+.newsfilter .grp-newsteaser:nth-child(14n+5) a>:not(:last-child){margin-left:20px}
+.newsfilter .grp-newsteaser:nth-child(1) .grp-newsteaser-imgpart,.newsfilter .grp-newsteaser:nth-child(7n+5) .grp-newsteaser-imgpart{min-width:calc(24px + (100% - 2 * 24px) / 3 * 2);width:calc(24px + (100% - 2 * 24px) / 3 * 2)}
+.newsfilter .grp-newsteaser:nth-child(14n+5) a{flex-direction:row-reverse}
+.newsfilter .grp-newsteaser:nth-child(14n+5) .grp-newsteaser__textpart{text-align:right}
+.newsfilter .grp-newsteaser:nth-child(14n+5) .grp-newsarticle-overline{justify-content:flex-end}
+}
+@media(min-width:481px) and (max-width:768px){.grp-newsteaser{max-width:calc((100% - 16px) / 2)}
+.grp-newsteaser:nth-child(2n+1){margin-right:16px}
+}
+@media(max-width:480px){.grp-newsteaser{max-width:100%;margin-right:0}
+}
+.grp-newsteaser img{width:100%}
+.grp-newsteaser__textpart{margin-top:15px;display:flex;flex-direction:column;justify-content:center}
+.grp-newsteaser__textpart .grp-newsteaser__headline{margin:0;font-family:"BMWGroupTNCondensedProTT-Regular",Tahoma,Geneva,sans-serif;font-weight:normal;line-height:1.1;hyphens:auto;text-transform:uppercase;font-size:28px}
+@media(max-width:768px){.grp-newsteaser__textpart .grp-newsteaser__headline{font-size:24px}
+}
+.grp-newsteaser__textpart>*:not(:last-child){margin-bottom:15px}
+.grp-newsteaser__textpart .grp-newsteaser__abstract{font-size:15px;line-height:22px}
+.grp-newsfilter-no-result{margin-top:25px}
+.grp-newsfilter-search-form{position:relative}
+.grp-newsfilter-search{font-family:"BMWGroupTNProTT-Regular",Arial,Helvetica,sans-serif;text-align:left;padding:10px 42px 9px 20px;cursor:pointer;background-color:#FFF;color:#494949;border:1px solid #666;outline:0;font-size:100%;max-width:306px;width:100%;position:relative}
+.grp-newsfilter-search:focus{border-width:2px;padding:9px 41px 8px 19px;color:#494949}
+.grp-newsfilter-search:focus::placeholder{color:#494949}
+.grp-newsfilter-search-icon{position:absolute;display:inline-block;top:0;right:8px;border:0;outline:0;mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/search_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-image:url("../../../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/search_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:24px;height:100%;background-color:#494949}
+.grp-newsfilter-search-icon:hover{background-color:#000}
+@media(min-width:481px) and (max-width:768px){.grp-newsfilter-toggle{max-width:288px}
+.grp-newsfilter-search{max-width:288px}
+}
+@media(max-width:480px){.grp-newsfilter-toggle{max-width:unset}
+.grp-newsfilter-search{max-width:unset}
+}
+.grp-newsfilter-area{display:none;flex-wrap:wrap}
+.grp-newsfilter-area>*:not(:last-child){margin-right:24px}
+@media(max-width:768px){.grp-newsfilter-area>*:not(:last-child){margin-right:16px}
+}
+.grp-newsfilter-area>*{margin-bottom:15px}
+.grp-newsfilter-area.opened{display:flex}
+.columncontrol .newsfilter .grp-newsfilter-result-area,.newsfilter.style-compact .grp-newsfilter-result-area{flex-direction:column;row-gap:24px}
+@media(max-width:768px){.columncontrol .newsfilter .grp-newsfilter-result-area,.newsfilter.style-compact .grp-newsfilter-result-area{row-gap:16px}
+}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser{margin-bottom:0;max-width:unset;margin-right:0}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a{display:flex;column-gap:24px;flex-direction:row}
+@media(max-width:768px){.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a{column-gap:16px}
+}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser-imgpart,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser-imgpart{min-width:160px;width:160px;max-width:160px;margin:0}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser-imgpart .grp-newsteaser__border,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser-imgpart .grp-newsteaser__border{display:none}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart{text-align:left;margin:0}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsarticle-overline,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsarticle-overline{justify-content:flex-start;margin:0;font-size:14px}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsarticle-overline>*,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsarticle-overline>*{margin-bottom:0}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsarticle-reading-time::before,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsarticle-reading-time::before{mask-size:16px;-webkit-mask-size:16px;width:16px;height:16px}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsteaser__headline,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsteaser__headline{margin:8px 0 0 0;font-size:18px}
+@media(max-width:768px){.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsteaser__headline,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsteaser__headline{font-size:16px}
+}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsteaser__abstract,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsteaser__abstract{display:none}
+.columncontrol .newsfilter .grp-load-more,.newsfilter.style-compact .grp-load-more{margin-top:25px}
+@media(max-width:480px){.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser-imgpart,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser-imgpart{display:none}
+.columncontrol .newsfilter .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsteaser__headline,.newsfilter.style-compact .grp-newsfilter-result-area .grp-newsteaser a .grp-newsteaser__textpart .grp-newsteaser__headline{margin:3px 0 0 0}
+}
+@media(max-width:1024px){.columncontrol .newsfilter .grp-newsteaser a .grp-newsteaser-imgpart{display:none}
+}

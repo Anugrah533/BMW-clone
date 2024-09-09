@@ -1,0 +1,49 @@
+.columncontrol{margin-top:40px}
+.columncontrol .grp-column-control>*{margin-top:0}
+.grp-column-control--flex{display:flex;flex-wrap:wrap;column-gap:60px;row-gap:40px}
+@media(max-width:768px){.grp-column-control--flex{column-gap:30px}
+}
+.grp-column-control--5-5,.grp-column-control--combi,.grp-column-control--3-6,.grp-column-control--6-3,.grp-column-control--3-3-3{display:grid;grid-template-columns:1fr;row-gap:40px;column-gap:24px}
+@media(max-width:768px){.grp-column-control--5-5,.grp-column-control--combi,.grp-column-control--3-6,.grp-column-control--6-3,.grp-column-control--3-3-3{column-gap:16px}
+}
+.grp-column-control--4col,.grp-column-control--5col,.grp-column-control--6col{display:grid;row-gap:40px;column-gap:16px;grid-template-columns:1fr 1fr}
+.grp-column-control--combi{display:grid;grid-template-columns:1fr}
+@media(max-width:480px){.grp-column-control--5-5,.grp-column-control--3-6,.grp-column-control--6-3,.grp-column-control--3-3-3{grid-template-columns:repeat(1,minmax(0,1fr))}
+.grp-column-control--4col,.grp-column-control--5col,.grp-column-control--6col{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(min-width:481px) and (max-width:768px){.grp-column-control--5-5,.grp-column-control--3-6,.grp-column-control--6-3,.grp-column-control--3-3-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grp-column-control--4col,.grp-column-control--5col,.grp-column-control--6col{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(min-width:769px) and (max-width:1024px){.grp-column-control--5-5,.grp-column-control--3-6,.grp-column-control--6-3,.grp-column-control--3-3-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grp-column-control--4col,.grp-column-control--5col,.grp-column-control--6col{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media(min-width:1025px){.grp-column-control--5-5,.grp-column-control--combi{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grp-column-control--combi{gap:0}
+.grp-column-control--3-6,.grp-column-control--6-3,.grp-column-control--3-3-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grp-column-control--3-6>*:nth-child(2n+2){grid-column:2/span 2}
+.grp-column-control--6-3>*:nth-child(2n+1){grid-column:1/span 2}
+.grp-column-control--4col{grid-template-columns:repeat(4,minmax(0,1fr))}
+.grp-column-control--5col{grid-template-columns:repeat(5,minmax(0,1fr))}
+.grp-column-control--6col{grid-template-columns:repeat(6,minmax(0,1fr))}
+}
+@media(max-width:1024px){.grp-column-control--combi>*:nth-of-type(3){grid-row:4}
+.grp-column-control--combi>*:nth-of-type(7){grid-row:8}
+.grp-column-control--combi>*:nth-of-type(11){grid-row:12}
+.grp-column-control--combi>*:nth-of-type(15){grid-row:16}
+.grp-column-control--combi>*:nth-of-type(19){grid-row:20}
+}
+.grp-popup__content .grp-column-control--5-5,.grp-popup__content .grp-column-control--3-6,.grp-popup__content .grp-column-control--6-3,.grp-popup__content .grp-column-control--3-3-3,.grp-popup__content .grp-column-control--4col,.grp-popup__content .grp-column-control--5col,.grp-popup__content .grp-column-control--6col{column-gap:16px}
+@media(max-width:1280px){.grp-popup__content .grp-column-control--combi{grid-template-columns:1fr;row-gap:40px}
+}
+@media(max-width:604px){.grp-popup__content .grp-column-control--5-5,.grp-popup__content .grp-column-control--3-6,.grp-popup__content .grp-column-control--6-3,.grp-popup__content .grp-column-control--3-3-3{grid-template-columns:1fr}
+}
+@media(min-width:605px) and (max-width:1280px){.grp-popup__content .grp-column-control--5-5,.grp-popup__content .grp-column-control--3-6,.grp-popup__content .grp-column-control--6-3,.grp-popup__content .grp-column-control--3-3-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grp-popup__content .grp-column-control--3-6>*:nth-child(2n+2),.grp-popup__content .grp-column-control--6-3>*:nth-child(2n+1){grid-column:unset}
+.grp-popup__content .grp-column-control--combi>*:nth-of-type(3){grid-row:4}
+.grp-popup__content .grp-column-control--combi>*:nth-of-type(7){grid-row:8}
+.grp-popup__content .grp-column-control--combi>*:nth-of-type(11){grid-row:12}
+.grp-popup__content .grp-column-control--combi>*:nth-of-type(15){grid-row:16}
+.grp-popup__content .grp-column-control--combi>*:nth-of-type(19){grid-row:20}
+}
+@media(min-width:1025px){.grp-popup__content .grp-column-control--6col{grid-template-columns:repeat(5,minmax(0,1fr))}
+}

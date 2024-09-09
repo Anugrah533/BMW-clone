@@ -1,0 +1,319 @@
+.cmp-tabs__tablist{display:flex;flex-wrap:wrap;padding-left:0;list-style:none}
+.cmp-tabs__tab{box-sizing:border-box;border-bottom:1px solid transparent;padding:.5rem 1rem;cursor:pointer}
+.cmp-tabs__tab--active{border-color:inherit}
+.cmp-tabs__tabpanel{display:none}
+.cmp-tabs__tabpanel--active{display:block}
+.cmp-pdfviewer__content{height:500px}
+.pdfviewer:not(.cq-Editable-dom) .cmp-pdfviewer__full-window-borderless{height:100vh;position:fixed;width:100vw;top:0;left:0;z-index:9999}
+.pdfviewer.cq-Editable-dom .cmp-pdfviewer__full-window-borderless{height:500px}
+.grp-navigation__panel:not(.sub-level) .grp-area-company.grp-navigation__item,.grp-navigation .grp-navigation__panel.sub-level .grp-area-company.grp-navigation__itemlist{border-color:#035970}
+.grp-navigation__panel:not(.sub-level) .grp-area-sustainability.grp-navigation__item,.grp-navigation .grp-navigation__panel.sub-level .grp-area-sustainability.grp-navigation__itemlist{border-color:#fad022}
+.grp-navigation__panel:not(.sub-level) .grp-area-innovation.grp-navigation__item,.grp-navigation .grp-navigation__panel.sub-level .grp-area-innovation.grp-navigation__itemlist{border-color:#0083c6}
+.grp-navigation__panel:not(.sub-level) .grp-area-brand.grp-navigation__item,.grp-navigation .grp-navigation__panel.sub-level .grp-area-brand.grp-navigation__itemlist{border-color:#69103b}
+.grp-navigation__panel:not(.sub-level) .grp-area-career.grp-navigation__item,.grp-navigation .grp-navigation__panel.sub-level .grp-area-career.grp-navigation__itemlist{border-color:#508130}
+.grp-navigation__panel:not(.sub-level) .grp-area-investor.grp-navigation__item,.grp-navigation .grp-navigation__panel.sub-level .grp-area-investor.grp-navigation__itemlist{border-color:#e96d0c}
+.grp-navigation__panel:not(.sub-level) .grp-area-electromobility.grp-navigation__item,.grp-navigation .grp-navigation__panel.sub-level .grp-area-electromobility.grp-navigation__itemlist{border-color:#8d1e77}
+.grp-navigation__panel:not(.sub-level) .grp-area-unknown.grp-navigation__item,.grp-navigation .grp-navigation__panel.sub-level .grp-area-unknown.grp-navigation__itemlist{border-color:#494949}
+.grp-header__greyout{display:none;position:absolute;background-color:rgba(0,0,0,0.6039215686);z-index:99;width:100%;height:200vmax;max-width:1920px;margin:0 auto}
+.grp-header{position:relative;display:flex;width:100%;flex-direction:column;row-gap:6px;padding:27px 96px 20px 96px;border-bottom:5px solid #d6d6d6;background-color:#FFF;z-index:108}
+.grp-header__row1{display:flex;justify-content:space-between;width:100%}
+.grp-header__row1,.grp-header__logo{height:38px;width:auto}
+.grp-header__logobar{display:flex}
+.grp-header__logobar>*{flex:100% 0 1}
+.grp-header__linksection{display:flex;align-items:center;margin-left:40px}
+.grp-header__linkpart,.grp-header__languagepart{height:100%;display:flex;align-items:center;column-gap:4px}
+.grp-header__linkpart-spacer{width:17px;height:100%;padding-right:15px;margin-right:15px;border-right:2px solid #d6d6d6}
+.grp-header__links{display:flex;align-items:center;column-gap:6px;height:100%;margin:0}
+.grp-header__link{display:block;font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;font-size:.9375rem;padding:8px 12px;border-bottom:2px solid transparent;cursor:pointer}
+.grp-header__link:hover,.grp-header__link.active{color:#000;border-bottom-color:#000}
+.grp-header__search{display:flex;align-items:center;position:relative;height:100%}
+.grp-header__searchwrapper{overflow:hidden}
+.grp-header__searchform{border-bottom:1px solid #494949;display:flex;line-height:23px;max-width:0;transition:max-width .5s ease-in-out}
+.grp-header__searchform.slide{max-width:200px}
+.grp-header__searchinput{border:0;outline:0;color:#494949;font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;font-size:.9375rem;width:100%;display:none}
+.grp-header__searchform.show .grp-header__searchinput{display:block}
+.grp-header__searchform .grp-header__searchsubmit{display:none;position:absolute;right:59px}
+.grp-header__searchform.show .grp-header__searchsubmit{display:block}
+.grp-header__searchsubmit::after{content:"";display:block;mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/search_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:center 4px;-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/search_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:24px;height:24px;background-color:#494949;cursor:pointer}
+.grp-header__searchsubmit:hover::after{background-color:#000}
+.grp-header__searchtrigger::after,.grp-header__searchicon::after,.grp-header__menueicon::after{content:"";display:block;flex-shrink:0;mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:24px;height:24px;background-color:#494949;cursor:pointer}
+.grp-header__searchtrigger:hover::after,.grp-header__searchicon:hover::after,.grp-header__menueicon:hover::after{background-color:#000}
+.grp-header__searchtrigger::after,.grp-header__searchicon::after{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/search_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/search_rg.svg")}
+.grp-header__searchtrigger.close::after{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg")}
+.grp-header__menueicon::after{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/menu_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/menu_rg.svg")}
+.grp-header__menueicon.close::after{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg")}
+.grp-header__menuetext{flex-shrink:0;margin:0 8px;font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;font-size:.9375rem}
+.grp-header__row2{font-family:"BMWGroupTNProTT-Light",Tahoma,Geneva,sans-serif;font-size:.75rem}
+.grp-navigation__slide-in{animation-name:slideInDown;animation-duration:.5s}
+.grp-navigation__slide-out{animation-name:slideOutUp;animation-duration:.5s}
+.grp-navigation__wrapper{overflow:hidden;position:absolute;width:100%;max-width:1920px}
+.grp-navigation{padding:50px 96px;background-color:#f2f2f2;position:relative;z-index:100;display:flex;justify-content:space-between}
+.grp-navigation__backpart{display:none;height:38px;align-items:center}
+.grp-navigation__backlink{flex:130px 0 0;margin-left:2px}
+.grp-navigation__backpart .grp-navigation__backlink{flex:100% 1 1;opacity:1;transition:all .5s linear}
+.grp-navigation[data-level="0"] .grp-navigation__backpart .grp-navigation__backlink{transition:all .5s linear;opacity:0}
+.grp-navigation[data-level="0"] .grp-navigation__backpart .grp-navigation__backlink a{display:none}
+.grp-navigation__backlink .grp-navigation__link{display:flex;align-items:center}
+.grp-navigation__links{margin-bottom:10px}
+.grp-navigation__backlink .grp-navigation__link::before{content:"";mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-left_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:right center;-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-left_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:left center;background-color:#494949;width:32px;height:24px}
+.grp-navigation__backlink .grp-navigation__link:hover::before{background-color:#000}
+.grp-navigation .grp-header__languagepart,.grp-navigation .grp-header__searchtrigger,.grp-navigation .grp-header__search,.grp-navigation__linkpart{display:none}
+.grp-navigation__link{display:block;font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;font-size:.9375rem;padding:8px 12px 8px 0}
+.grp-navigation__panelwrapper{flex-basis:45%;position:relative;overflow:hidden;transition:padding-bottom .5s ease-in-out}
+.grp-navigation__panel{display:flex;flex-direction:row;flex-basis:25%;margin-top:2px;transition:all .5s ease-in-out;transform:translateX(0);width:100%;position:absolute}
+.grp-navigation__panel.left{transform:translateX(-100%)}
+.grp-navigation__panel.right{transform:translateX(100%)}
+.slideup{margin-top:-100%;transition:margin-top .5s ease-in-out}
+.grp-navigation__panel:not(.sub-level) .grp-navigation__item,.grp-navigation .grp-navigation__panel.sub-level .grp-navigation__itemlist{border-style:solid}
+.grp-navigation__panel:not(.sub-level) .grp-navigation__item{border-width:0 0 0 5px}
+.grp-navigation__panel:not(.sub-level) .grp-navigation__backlink{display:none}
+.grp-navigation__itemlist{display:flex;flex-direction:column;row-gap:6px;flex:370px 0 0}
+.grp-navigation__panel.sub-level .grp-navigation__itemlist{border-width:0 0 0 5px;flex:310px 0 0}
+.grp-navigation__panel.right .grp-navigation__item.notab,.grp-navigation__panel.left .grp-navigation__item.notab,.grp-navigation__panel.right .grp-navigation__link,.grp-navigation__panel.left .grp-navigation__link{display:none}
+.grp-navigation__item{padding:8px 0 8px 20px;font-family:"BMWGroupTNCondensedProTT-Regular",Tahoma,Geneva,sans-serif;display:flex;justify-content:space-between;align-items:center}
+.grp-navigation__item.active{font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif}
+.grp-navigation__item a,a.grp-navigation__link{cursor:pointer}
+.grp-navigation__link-text2{font-family:"BMWGroupTNCondensedProTT-Regular",Tahoma,Geneva,sans-serif;color:#494949;hyphens:auto;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.grp-navigation__link-text2:hover{color:#000}
+.grp-navigation__item.current-path .grp-navigation__link-text2{font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif}
+.grp-navigation__next{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-right_rg.svg");mask-repeat:no-repeat;mask-size:20px;mask-position:right center;-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-right_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:20px;-webkit-mask-position:right center;flex:40px 0 0;height:20px;background-color:#494949;cursor:pointer}
+.grp-navigation__next:hover{background-color:#000}
+.grp-navigation__teaserwrapper{flex-basis:432px;overflow:hidden;padding-bottom:0;transition:padding-bottom .5s ease-in-out;position:relative;min-height:380px}
+.grp-navigation__teaser{position:absolute;transition:transform .5s ease-in-out;transform:translateX(0);width:100%;height:auto}
+.grp-navigation__teaser.left{transform:translateX(-100%)}
+.grp-navigation__teaser.right{transform:translateX(100%)}
+.grp-navigation__teaser a{display:inherit;width:calc(100% - 3px)}
+.grp-navigation__teaser.left a,.grp-navigation__teaser.right a{display:none}
+.grp-navigation__teaser .grp-h3{font-size:1.375rem;line-height:1.3;hyphens:auto;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.grp-navigation__imagewrapper{margin:15px 0;position:relative;overflow:hidden;padding-bottom:66%}
+.grp-navigation__teaser-image{position:absolute;width:100%;height:100%}
+@media(max-width:1280px){.grp-header{padding:27px 48px 20px 48px}
+.grp-header__linkpart{display:none}
+.grp-navigation__slide-in{animation-name:slideInRight}
+.grp-navigation__slide-out{animation-name:slideOutRight}
+.grp-navigation .grp-navigation__panel.sub-level{row-gap:.5rem}
+.grp-navigation__backpart{display:flex;border-left:5px solid transparent}
+.grp-navigation__linkpart{display:block;margin:15px 0 30px;border-left:5px solid transparent}
+.grp-navigation{right:0;width:480px;margin:0 0 0 auto;padding:32px 48px 32px 0;flex-direction:column;transition:border-color .5s linear}
+.grp-navigation__link{padding:8px 25px}
+.grp-navigation__panel .grp-navigation__backlink{display:none}
+.grp-navigation__itemlist,.grp-navigation__panel.sub-level .grp-navigation__itemlist{flex:100% 0 0}
+.grp-navigation__panel:not(.sub-level) .grp-navigation__itemlist{padding-right:0}
+.grp-navigation__item{padding-left:25px}
+.grp-navigation__teaserwrapper{border-left:5px solid}
+.grp-navigation__teaser{margin-top:40px;padding:0 0 0 25px}
+}
+@media(max-width:768px){.grp-header{padding:27px 24px 20px 24px}
+.grp-header__row1,.grp-header__logo{height:32px}
+.grp-header .grp-header__languagepart,.grp-header .grp-header__search{display:none}
+.grp-navigation{padding:32px 24px 32px 0}
+.grp-navigation .grp-header__languagepart{display:flex}
+.grp-navigation .grp-header__search{display:flex}
+}
+@media(max-width:480px){.grp-header__row1,.grp-header__logo{height:28px}
+.grp-header__linksection{margin-left:15px}
+.grp-header__menuetext{display:none}
+.grp-navigation{width:100%}
+}
+@media(min-width:1281px){.grp-navigation__teaser{height:fit-content;padding-left:25px;border-left:#d6d6d6 solid 3px}
+}
+@font-face{font-family:"BMWGroupSerif-Light";src:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/fonts/BMWGroupTNSemiSfCnProTT-Light.woff") format("woff")}
+@font-face{font-family:"BMWGroupTNProTT-Regular";src:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/fonts/BMWGroupTNProTT-Regular.woff") format("woff")}
+@font-face{font-family:"BMWGroupTNProTT-Bold";src:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/fonts/BMWGroupTNProTT-Bold.woff") format("woff")}
+@font-face{font-family:"BMWGroupTNProTT-Light";src:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/fonts/BMWGroupTNProTT-Light.woff") format("woff")}
+@font-face{font-family:"BMWGroupTNCondensedProTT-Regular";src:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/fonts/BMWGroupTNCondensedProTT-Regular.woff") format("woff")}
+@font-face{font-family:"BMWGroupTNCondensedProTT-Bold";src:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/fonts/BMWGroupTNCondensedProTT-Bold.woff") format("woff")}
+div[data-area=company]{border-color:#035970}
+div[data-area=sustainability]{border-color:#fad022}
+div[data-area=innovation]{border-color:#0083c6}
+div[data-area=career]{border-color:#508130}
+div[data-area=brand]{border-color:#69103b}
+div[data-area=investor]{border-color:#e96d0c}
+div[data-area=electromobility]{border-color:#8d1e77}
+div[data-area=unknown]{border-color:#494949}
+div[data-area=transparent]{border-color:transparent}
+.grp-headline,h4,.grp-h4,h3,.grp-h3,h2,.grp-h2,h1,.grp-h1{margin:0;font-family:"BMWGroupTNCondensedProTT-Regular",Tahoma,Geneva,sans-serif;font-weight:normal;line-height:1.1;hyphens:auto}
+h1,.grp-h1,h2,.grp-h2,h4,.grp-h4{text-transform:uppercase}
+h1,.grp-h1{font-size:50px}
+h2,.grp-h2{font-size:36px}
+h3,.grp-h3{font-size:28px}
+h4,.grp-h4{font-size:18px}
+@media(min-width:769px) and (max-width:1280px){h1,.grp-h1{font-size:44px}
+h2,.grp-h2{font-size:32px}
+h3,.grp-h3{font-size:24px}
+}
+@media(max-width:768px){h1,.grp-h1{font-size:32px}
+h2,.grp-h2{font-size:24px}
+h3,.grp-h3{font-size:20px}
+h4,.grp-h4{font-size:16px}
+}
+*{box-sizing:border-box}
+html,body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;max-width:1920px;margin:0 auto;font-size:16px;font-family:"BMWGroupTNProTT-Regular",Arial,Helvetica,sans-serif;line-height:1.21;color:#494949}
+.no-overflow{overflow:hidden}
+a{text-decoration:none;color:#494949;cursor:pointer}
+a:hover{color:#000}
+a:focus,button:focus{outline:2px solid #035970;border-radius:1px}
+button,input,optgroup,select,textarea{font:inherit;border:0;padding:0;background-color:transparent}
+select,textarea,input{outline:0}
+button{cursor:pointer}
+p{margin:0;font-size:15px;line-height:22px;hyphens:auto}
+p ~ p{margin-top:15px}
+p a{text-decoration:underline}
+p b{font-family:"BMWGroupTNProTT-Bold","Arial Black",Gadget,sans-serif}
+ul,ol{list-style:none;margin:0;padding:0}
+table{border:0;border-collapse:collapse;border-spacing:0}
+td,th{font-size:15px;line-height:22px;border:1px solid #d6d6d6;padding:5px 10px;hyphens:auto}
+.grp-lowercase{text-transform:none}
+.style-margin-top{margin-top:40px}
+.style-non-mobile{display:block}
+@media(max-width:480px){.style-non-mobile{display:none}
+}
+.grp-column-control .style-non-mobile{display:none}
+.grp-column-control.grp-column-control--5-5 .style-non-mobile,.grp-column-control.grp-column-control--3-6 .style-non-mobile,.grp-column-control.grp-column-control--6-3 .style-non-mobile{display:none}
+@media(min-width:1025px){.grp-column-control.grp-column-control--5-5 .style-non-mobile,.grp-column-control.grp-column-control--3-6 .style-non-mobile,.grp-column-control.grp-column-control--6-3 .style-non-mobile{display:block}
+}
+.style-mobile-only{display:block}
+@media(min-width:481px){.style-mobile-only{display:none}
+}
+.grp-column-control .style-mobile-only{display:block}
+.grp-column-control.grp-column-control--5-5 .style-mobile-only,.grp-column-control.grp-column-control--3-6 .style-mobile-only,.grp-column-control.grp-column-control--6-3 .style-mobile-only{display:block}
+@media(min-width:1025px){.grp-column-control.grp-column-control--5-5 .style-mobile-only,.grp-column-control.grp-column-control--3-6 .style-mobile-only,.grp-column-control.grp-column-control--6-3 .style-mobile-only{display:none}
+}
+.grp-column-control.grp-column-control--5-5 .style-wide,.grp-column-control.grp-column-control--3-6 .style-wide,.grp-column-control.grp-column-control--6-3 .style-wide{display:none}
+@media(min-width:1025px){.grp-column-control.grp-column-control--5-5 .style-wide,.grp-column-control.grp-column-control--3-6 .style-wide,.grp-column-control.grp-column-control--6-3 .style-wide{display:block}
+}
+.style-narrow{display:block}
+@media(min-width:1025px){.style-narrow{display:none}
+}
+.grp-column-control .style-narrow{display:block}
+.grp-column-control.grp-column-control--5-5 .style-narrow,.grp-column-control.grp-column-control--3-6 .style-narrow,.grp-column-control.grp-column-control--6-3 .style-narrow{display:block}
+@media(min-width:1025px){.grp-column-control.grp-column-control--5-5 .style-narrow,.grp-column-control.grp-column-control--3-6 .style-narrow,.grp-column-control.grp-column-control--6-3 .style-narrow{display:none}
+}
+.grp-hidden{display:none !important}
+.grp-wrapper{overflow:hidden}
+.grp-link__regular{color:#494949;font-family:"BMWGroupTNProTT-Regular",Arial,Helvetica,sans-serif}
+.grp-link__bold{color:#494949;font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif}
+.grp-link__hover{color:#000}
+.grp-link__link-icon{mask-repeat:no-repeat;mask-size:24px;mask-position:right center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:left center;width:24px;height:24px;display:block;background-color:#494949}
+.grp-link__link-icon:hover{background-color:#000}
+.grp-expand-button{display:block;float:right;width:80px;height:50px;background-color:#d6d6d6;text-align:center;cursor:pointer;position:relative}
+.grp-expand-button::after{content:" ";mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/plus_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/plus_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:100%;height:100%;position:absolute;top:0;left:0;display:block;background-color:#494949}
+.grp-expand-button[aria-expanded=true]::after{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/minus_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/minus_rg.svg")}
+.grp-expand-button:hover::after{background-color:#000}
+@keyframes fadeIn{0{display:none;opacity:0}
+1%{display:block;opacity:0}
+100%{display:block;opacity:1}
+}
+.fadeIn{animation-name:fadeIn;animation-duration:.5s}
+@keyframes fadeOut{0{display:block;opacity:1}
+99%{display:block;opacity:0}
+100%{display:none;opacity:0}
+}
+.fadeOut{animation-name:fadeOut;animation-duration:.5s}
+@keyframes slideInDown{from{transform:translate3d(0,-100%,0);visibility:visible}
+100%{transform:translate3d(0,0,0)}
+}
+.slideInDown{animation-name:slideInDown;animation-duration:.75s}
+@keyframes slideOutUp{from{transform:translate3d(0,0,0)}
+100%{visibility:hidden;transform:translate3d(0,-100%,0)}
+}
+.slideOutUp{animation-name:slideOutUp;animation-duration:.75s}
+@keyframes slideInRight{from{transform:translate3d(100%,0,0);visibility:visible}
+100%{transform:translate3d(0,0,0)}
+}
+.slideInRight{animation-name:slideInRight}
+@keyframes slideOutRight{from{transform:translate3d(0,0,0);width:100%}
+100%{visibility:hidden;transform:translate3d(100%,0,0)}
+}
+@keyframes slideOutRight{from{transform:translate3d(0,0,0)}
+100%{visibility:hidden;transform:translate3d(100%,0,0)}
+}
+.slideOutRight{animation-name:slideOutRight}
+@keyframes slideInLeft{from{transform:translate3d(-100%,0,0);visibility:visible}
+100%{transform:translate3d(0,0,0)}
+}
+.slideInLeft{animation-name:slideInLeft}
+@keyframes slideOutLeft{from{transform:translate3d(0,0,0)}
+100%{visibility:hidden;transform:translate3d(-100%,0,0)}
+}
+.slideOutLeft{animation-name:slideOutLeft}
+@keyframes fadeInFromNone{0{display:none;opacity:0}
+1%{display:block;opacity:0}
+100%{display:block;opacity:1}
+}
+@keyframes slideUpDelayed{0{transform:translateY(0)}
+80%{transform:translateY(0)}
+100%{transform:translateY(-100%)}
+}
+.grp-sharelinks{font-size:16px;display:flex;align-items:center;color:#494949;flex-shrink:.3;position:relative}
+.grp-sharelinks>*:not(:last-child){margin-right:15px}
+.grp-share-icon,.grp-share-linkbutton{display:inline-block;mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:24px;height:24px;background-color:#494949}
+.grp-share-icon:hover,.grp-share-linkbutton:hover{background-color:#000}
+.grp-share-icon{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/share-social_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/share-social_rg.svg")}
+.grp-share-linkbutton.e-mail{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/e-mail_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/e-mail_rg.svg")}
+.grp-share-linkbutton.facebook{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/e-mail_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/facebook_rg.svg")}
+.grp-share-linkbutton.linkedin{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/linkedin_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/linkedin_rg.svg")}
+.grp-share-linkbutton.twitter{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/twitter_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/twitter_rg.svg")}
+.grp-share-linkbutton.xing{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/xing_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/xing_rg.svg")}
+.grp-share-linkbutton.youtube{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/youtube_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/youtube_rg.svg")}
+.grp-share-tooltip{opacity:0;transition:opacity 1s;font-family:"BMWGroupTNCondensedProTT-Regular",Tahoma,Geneva,sans-serif;position:absolute;bottom:46px;left:-7px;background-color:#f2f2f2;padding:8px;border-radius:5px;filter:drop-shadow(0 0 4px #999);width:calc(100% + 7px)}
+.grp-share-tooltip::after{content:"";position:absolute;top:100%;left:8px;border-width:12px;border-style:solid;border-color:#f2f2f2 transparent transparent transparent}
+.grp-popup__overlay{z-index:99999;position:fixed;right:0;top:0;bottom:0;left:0;background:#000;opacity:0;transition:opacity .5s}
+.grp-popup__overlay.animation{opacity:.6}
+.grp-popup{position:fixed;right:0;top:0;bottom:0;background:#FFF;z-index:100000;transition:left .5s ease-in-out .5s;left:100vw;width:50vw}
+@media(max-width:480px){.grp-popup{width:100vw}
+}
+@media(min-width:481px) and (max-width:1024px){.grp-popup{width:75vw}
+}
+.grp-popup.animation{left:50vw}
+@media(max-width:480px){.grp-popup.animation{left:0}
+}
+@media(min-width:481px) and (max-width:1024px){.grp-popup.animation{left:25vw}
+}
+.grp-popup .grp-popup__content{position:absolute;bottom:0;right:0;left:0;top:45px;overflow-y:auto;overflow-x:hidden}
+@media(min-width:769px){.grp-popup .grp-component__content{padding-left:24px;padding-right:48px}
+}
+.grp-popup .grp-popup__close{display:inline-block;opacity:0;width:20px;height:20px;top:20px;position:absolute;right:48px;cursor:pointer;transition:opacity .5s linear}
+@media(max-width:768px){.grp-popup .grp-popup__close{right:24px}
+}
+.grp-popup .grp-popup__close::after{content:"";position:absolute;top:0;left:0;mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg");mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg");-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:100%;height:100%;background-color:#494949}
+.grp-popup .grp-popup__close:hover::after{background-color:#000}
+.grp-popup .popup-template-edit-mode{display:none}
+.popup-template-edit-mode{margin-top:150px}
+@media print{body.no-overflow{overflow:initial}
+body.no-overflow>*:not(.grp-popup){display:none}
+body.no-overflow>.grp-popup{left:0;width:100%;position:relative}
+body.no-overflow>.grp-popup>.grp-popup__content{position:relative;overflow:initial}
+}
+.grp-multi-dropdown{position:relative}
+.grp-dropdown-button{position:relative;font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;text-transform:uppercase;text-align:left;padding:0 42px 0 20px;cursor:pointer;background-color:#FFF;color:#494949;border:1px solid #666;outline:0;font-size:14px;height:37px;display:flex;align-items:center}
+.grp-dropdown-button:hover{color:#000}
+.grp-down-icon{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-down_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/arrow-chevron-down_rg.svg");transition:all .5s ease-in-out}
+.grp-rotate-icon{transform:rotate(-180deg)}
+.grp-multi-dropdown-list{display:flex;flex-direction:column;flex-wrap:nowrap;gap:.75rem;max-height:0;width:100%;padding:0 1em 0 1em;background-color:#f2f2f2;position:absolute;z-index:9;overflow:hidden auto;filter:drop-shadow(4px 4px 4px #666);transition:all .5s}
+.grp-multi-dropdown-list.grp-show{height:auto;max-height:70vh;padding:1.5em 1em 1em 1em;transition:all .5s}
+.grp-dd-item{position:relative;display:flex;flex-wrap:nowrap;font-family:"BMWGroupTNCondensedProTT-Bold",Charcoal,sans-serif;font-size:15px;line-height:1.4rem}
+.grp-dd-indent{margin-left:1.5em}
+.grp-dd-item input[type=checkbox]{height:20px;width:20px;margin-right:.5em;flex-shrink:0}
+.grp-dd-item label{vertical-align:top;hyphens:auto}
+.grp-text-search-form{position:relative;max-width:50rem}
+.grp-text-search{text-align:left;padding:10px 74px 9px 20px;background-color:#FFF;color:#494949;border:1px solid #666;outline:0;font-size:100%;width:100%;height:37px;font-family:"BMWGroupTNProTT-Regular",Arial,Helvetica,sans-serif}
+.grp-text-search-icon,.grp-text-reset-icon,.grp-down-icon{position:absolute;cursor:pointer;top:6px;right:8px;mask-repeat:no-repeat;mask-size:24px;mask-position:center center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:24px;-webkit-mask-position:center center;width:24px;height:24px;background-color:#494949}
+.grp-text-search-icon:hover,.grp-text-reset-icon:hover,.grp-down-icon:hover{background-color:#000}
+.grp-text-search-icon{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/search_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/search_rg.svg");right:32px}
+.grp-text-reset-icon{mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg");-webkit-mask-image:url("../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/close_rg.svg")}
+.grp-video-play{height:50px;width:50px;position:absolute;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);background-color:rgba(221,221,221,0.6039215686);border-radius:50%}
+.grp-video-play:hover{background-color:rgba(255,255,255,0.6039215686)}
+.grp-video-play::after{content:"";background-color:rgba(0,0,0,0.6039215686);mask-repeat:no-repeat;mask-size:32px;mask-position:center center;mask-image:url(../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/play_rg.svg);-webkit-mask-repeat:no-repeat;-webkit-mask-size:32px;-webkit-mask-position:center center;-webkit-mask-image:url(../../../etc.clientlibs/grpw-web/clientlibs/clientlib-base/resources/images/regular/play_rg.svg);width:32px;height:32px;position:absolute;top:50%;left:50%;transform:translateY(-50%) translateX(-50%)}
+body.basicpage .grp-mediagallery{max-width:768px;margin-right:auto}
+body.basicpage .grp-mediagallery .grp-mediagallery__item{margin-top:40px}
+body.basicpage .grp-mediagallery img.grp-mediagallery__item__image--thumb{display:block;width:100%}
+body.basicpage .grp-mediagallery .grp-mediagallery__item__image.grp-mediagallery__item__image--large{display:none}
+body.basicpage .grp-mediagallery .grp-mediagallery__item__textblock{padding:0 20px;background-color:#f2f2f2}
+body.basicpage .grp-mediagallery .grp-mediagallery__item__textblock p{margin-top:0;padding-bottom:15px}
+body.basicpage .grp-mediagallery .grp-mediagallery__item__textblock h4{padding:15px 0}
+body.basicpage .grp-mediagallery .grp-mediagallery__item__textblock p:empty{display:none}
+body.basicpage .grp-mediagallery .grp-mediagallery__item__textblock .grp-textmodul.grp-gutter>p:first-child{padding-top:15px}
+body.basicpage .grp-mediagallery .grp-mediagallery__item__textblock h4 ~ p.grp-mediagallery__item__textblock__content{padding-top:0}
+body.basicpage .grp-mediagallery .grp-mediagallery__item__textblock p:empty ~ p.grp-mediagallery__item__textblock__content{padding-top:15px}
+.container.background-grey .grp-mediagallery__item__textblock{background-color:#FFF}
